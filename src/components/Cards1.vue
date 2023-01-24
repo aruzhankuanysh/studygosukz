@@ -16,12 +16,12 @@
       :breakpoints="swipbreakp"
     >
       <swiper-slide class="hhh">
-        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-xl-5 card1">
+        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-lg-5 card1">
           <div class="row">
-            <div class="col-4 col-xl-2 pe-4 mb-4 mb-xl-5">
-              <img class="img-fluid" src="../assets/icon1.png" alt="">
+            <div class="col-4 col-sm-2 col-xl-2 pe-4 pe-sm-2 pe-xxl-4 mb-4 mb-xl-5">
+              <img class="img-fluid pe-xxl-2" src="../assets/icon1.png" alt="">
             </div>
-            <div class="col-xl-10 mb-4 mb-xl-5 pe-0">
+            <div class="col-sm-10 col-xl-10 mb-4 mb-xl-5 pe-0">
               <h4 class="fw-bold">Поддерживает систему управления на предприятии</h4>
             </div>
           </div>
@@ -31,12 +31,12 @@
         </div>
       </swiper-slide>
       <swiper-slide class="hhh">
-        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-xl-5 card1">
+        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-lg-5 card1">
           <div class="row">
-            <div class="col-4 col-xl-2 pe-4 mb-4 mb-xl-5">
-              <img class="img-fluid" src="../assets/icon2.png" alt="">
+            <div class="col-4 col-sm-2 col-xl-2 pe-4 pe-sm-2 pe-xxl-4 mb-4 mb-xl-5">
+              <img class="img-fluid pe-xxl-2" src="../assets/icon2.png" alt="">
             </div>
-            <div class="col-xl-10 mb-4 mb-xl-5">
+            <div class="col-sm-10 col-xl-10 mb-4 mb-xl-5">
               <h4 class="fw-bold col-xl-5">Программирует на&nbsp;языке&nbsp;1С</h4>
             </div>
           </div>
@@ -46,13 +46,13 @@
         </div>
       </swiper-slide>
       <swiper-slide class="hhh">
-        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-xl-5 card1">
+        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-lg-5 card1">
           <div class="row">
-            <div class="col-4 col-xl-2 pe-4 mb-4 mb-xl-5">
-              <img class="img-fluid" src="../assets/icon3.png" alt="">
+            <div class="col-4 col-sm-2 col-xl-2 pe-4 pe-sm-2 pe-xxl-4 mb-4 mb-xl-5">
+              <img class="img-fluid pe-xxl-2" src="../assets/icon3.png" alt="">
             </div>
-            <div class="col-xl-10 mb-4 mb-xl-5">
-              <h4 class="fw-bold col-xl-8">Обновляет существующие программы 1С</h4>
+            <div class="col-sm-10 col-xl-10 mb-4 mb-xl-5">
+              <h4 class="fw-bold col-xxl-8">Обновляет существующие программы 1С</h4>
             </div>
           </div>
           <div>
@@ -61,12 +61,12 @@
         </div>
       </swiper-slide>
       <swiper-slide class="hhh">
-        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-xl-5 card1">
+        <div class = "bg-primary bg-opacity-25 rounded-4 p-4 p-lg-5 card1">
           <div class="row">
-            <div class="col-4 col-xl-2 pe-4 mb-4 mb-xl-5">
-              <img class="img-fluid" src="../assets/icon4.png" alt="">
+            <div class="col-4 col-sm-2 col-xl-2 pe-4 pe-sm-2 pe-xxl-4 mb-4 mb-xl-5">
+              <img class="img-fluid pe-xxl-2" src="../assets/icon4.png" alt="">
             </div>
-            <div class="col-xl-10 mb-4 mb-xl-5">
+            <div class="col-sm-10 col-xl-10 col-xxl-8 mb-4 mb-xl-5">
               <h4 class="fw-bold">Разрабатывает и модифицирует функционал</h4>
             </div>
           </div>
@@ -116,9 +116,19 @@
 .card1{
   height: 330px;
 }
-@media (max-width: 576px) {
+@media (max-width: 410px) {
+  .card1{
+    height: 470px;
+  }
+}
+@media (min-width:410px) and (max-width: 576px) {
   .card1{
     height: 400px;
+  }
+}
+@media (min-width:576px) and (max-width: 992px) {
+  .card1{
+    height: 270px;
   }
 }
 </style>
@@ -140,14 +150,15 @@ export default {
       Autoplay,
       Navigation,
       swipbreakp:{
-        500:{
+        768:{
+          slidesPerView: 1.4,
+        },
+        992:{
           slidesPerView: 1.6,
-        }
-      },
-      swipbreakpoints:{
-        500:{
-          slidesPerView: 2,
-        }
+        },
+        1200:{
+          slidesPerView: 1.5,
+        },
       }
     };
   },

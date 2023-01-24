@@ -7,21 +7,25 @@
           <div id="success" class="alert alert-success float-end col-10 col-sm-6 col-md-4 col-lg-3 mt-5 m-md-5 text-center" role="alert" style="display: none;"></div>
           <div id="danger" class="alert alert-danger        float-end col-10 col-sm-6 col-md-4 col-lg-3 mt-5 m-md-5 text-center" role="alert" style="display: none;"></div>
         </div>
-        <div class="col-xl-6">
-          <div class="my-xl-5 py-5"></div>
+        <div class="col-lg-6">
+          <div class="my-xl-4 my-xxl-5 py-5"></div>
           <h1 class="fw-bold display-5">
             Освой профессию 
             <p class="d-inline text-primary fw-bold">1С&nbsp;-&nbsp;программиста</p> с&nbsp;нуля 
             всего за&nbsp;2&nbsp;месяца 
           </h1>
           <h3 class="mt-5 my-xl-5">Выйди на доход от&nbsp;250&nbsp;000&nbsp;тг&frasl;мес.</h3>
-          <button class="btn btn-primary rounded-4 px-5 py-3 d-none d-xl-block" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1"><h4 class="m-0 mx-5">Записаться</h4></button>
+          <button class="btn btn-primary rounded-4 px-5 py-3 d-none d-lg-block mb-lg-5 mt-lg-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <h4 class="m-0 mx-5">
+              Записаться
+            </h4>
+          </button>
           <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content p-4">
                 <div class="modal-header pt-lg-3 pe-lg-4">
                   <h4 class="pe-lg-3 text-primary fw-bold">
-                    Записаться на курс
+                    Записаться на&nbsp;курс
                   </h4>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="closeModalForm"></button>
                 </div>
@@ -82,28 +86,26 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-6 p-0"><img class="img-fluid p-0" src="../assets/image1.png" alt=""></div>
-        <div class="text-center d-xl-none">
+        <div class="col-lg-6 p-0 d-flex align-items-end"><img class="img-fluid p-0 mt-lg-5 mt-xl-0" src="../assets/image1.png" alt=""></div>
+        <div class="text-center d-lg-none">
           <button class="btn btn-primary rounded-4 px-5 py-3 col-12" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-            <h4 class="m-0 mx-5">
+            <h4 class="m-0">
               Записаться
             </h4>
           </button>
-
-          
         </div>
         <div>
-          <div class="bg-primary bg-opacity-25 rounded-4 p-5">
+          <div class="bg-primary bg-opacity-25 rounded-4 p-5 px-md-4 px-lg-5">
             <div class="row px-xl-5">
-              <div class="col-xl">
+              <div class="col-sm-6 col-md col-xl">
                 <h3 class="fw-bold text-primary">
                   Когда
                 </h3>
                 <h4>
-                  01 февраля
+                  01&nbsp;февраля
                 </h4>
               </div>
-              <div class="col-xl">
+              <div class="col-sm-6 col-md col-xl">
                 <h3 class="fw-bold text-primary">
                   Формат
                 </h3>
@@ -111,7 +113,7 @@
                   Оффлайн
                 </h4>
               </div>
-              <div class="col-xl">
+              <div class="col-sm-6 col-md col-xl">
                 <h3 class="fw-bold text-primary">
                   Уровень
                 </h3>
@@ -119,7 +121,7 @@
                   С нуля
                 </h4>
               </div>
-              <div class="col-xl">
+              <div class="col-sm-6 col-md col-xl">
                 <h3 class="fw-bold text-primary">
                   Возможность
                 </h3>
@@ -151,23 +153,23 @@
     <div class="container-fluid bg-primary bg-opacity-25 row justify-content-center p-0">
       <section class="row justify-content-center position-relative my-5 p-0">
         <div class="col-11 col-xl-10 row align-items-center">
-          <div class="col-xl-7">
+          <div class="col-md-7">
             <h1 class="fw-bold">
               Освойте профессию 1С&nbsp;&#8209;&nbsp;программиста с&nbsp;нуля
             </h1>
-            <h4 class="text-primary fw-bold my-5">
-              И начните поиск работы уже через 7 месяцев 
+            <h4 class="text-primary fw-bold my-4 my-lg-5">
+              И начните поиск работы уже через 7&nbsp;месяцев 
             </h4>
-            <div class="d-xl-none">
+            <div class="d-md-none">
               <img class="img-fluid" src="../assets/image7.png" alt="">
             </div>
-            <button class="btn btn-primary rounded-4 px-5 py-3 col-12 col-xl-7" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            <button class="btn btn-primary rounded-4 px-5 py-3 col-12 col-lg-9 col-xxl-7" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
               <h4 class="m-0 fw-bold">
                 Записаться на курс
               </h4>
             </button>
           </div>
-          <div class="col-5 d-none d-xl-block">
+          <div class="col-5 d-none d-md-block">
             <img class="img-fluid" src="../assets/image7.png" alt="">
           </div>
         </div>
@@ -182,13 +184,13 @@
     <div class="container-fluid bg-primary bg-opacity-25 row justify-content-center p-0">
       <section class="row justify-content-center position-relative p-0">
         <div class="col-11 col-xl-10 row align-items-center py-5 py-xl-0">
-          <div class="col-xl-6">
+          <div class="col-lg-6">
             <h3 class="fw-bold">
               После обучения вашего уровня знаний и навыков будет достаточно для прохождения сертификации «1С Профессионал», а также для подготовки к сдаче экзамена «1С Специалист по платформе»
             </h3>
           </div>
-          <div class="col-xl-6">
-            <img class="img-fluid pe-5 pe-xl-0" src="../assets/image8.png" alt="">
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid col-sm-10 col-md-8 col-lg-12 pe-5 pe-xl-0" src="../assets/image8.png" alt="">
           </div>
         </div>
       </section>
@@ -207,8 +209,17 @@
       <section class="row justify-content-center position-relative p-0">
         <div class="col-11 col-xl-10 py-4">
           <h1 class="fw-bold mb-5">Получите подробную информацию</h1>
-          <form id="tg" class="row align-items-center">
-            <div>
+          <form id="tg" class="row align-items-center justify-cntent-center">
+            <div class="col-md-4 col-lg-3 mb-4">
+              <input type="text" class="form-control-lg form-control" name="name" placeholder="Имя" required>
+            </div>
+            <div class="col-md-4 col-lg-3 mb-4">
+              <input type="text" class="form-control-lg form-control tel" name="number" placeholder="+7 (999)999-99-99" value="" required>
+            </div>
+            <div class="col-md-4 col-lg-3 mb-4">
+              <input type="email" class="form-control-lg form-control" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="d-lg-none px-3">
               <div class="form-check mb-3">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked required>
                 <label class="form-check-label" for="flexCheckChecked">
@@ -216,17 +227,16 @@
                 </label>
               </div>
             </div>
-            <div class="col-xl-3 mb-4">
-              <input type="text" class="form-control-lg form-control" name="name" placeholder="Имя">
-            </div>
-            <div class="col-xl-3 mb-4">
-              <input type="text" class="form-control-lg form-control tel" name="number" placeholder="+7 (999)999-99-99" value="">
-            </div>
-            <div class="col-xl-3 mb-4">
-              <input type="email" class="form-control-lg form-control" name="email" placeholder="E-mail">
-            </div>
-            <div class="col-xl-3 mb-4">
+            <div class="col-lg-3 mb-4">
               <input type="submit" class="form-control-lg form-control btn btn-primary fw-bold" placeholder="Отправить" @click="study">
+            </div>
+            <div class="d-none d-lg-block px-3">
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked required>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Отправляя данные в данной форме вы соглашаетесь с обработкой персональных данных и политикой конфиденциальности
+                </label>
+              </div>
             </div>
           </form>
         </div>
@@ -336,19 +346,19 @@ export default {
           this.name.value = "";
           this.email.value = ""
           this.number.value = "";
-          successs.innerHTML = 'Заявка отправлена успешно!';
-          successs.style.display = 'block';
+          success.innerHTML = 'Заявка отправлена успешно!';
+          success.style.display = 'block';
           setTimeout(function(){
-            document.getElementById('successs').style.display = 'none';
+            document.getElementById('success').style.display = 'none';
           }, 3000 );
           document.getElementById('closeModalForm').click();
         })
         .catch((err) =>{
           console.warn(err)
-          dangers.innerHTML = 'Ошибка отправки!';
-          dangers.style.display = 'block';
+          danger.innerHTML = 'Ошибка отправки!';
+          danger.style.display = 'block';
           setTimeout(function(){
-            document.getElementById('dangers').style.display = 'none';
+            document.getElementById('danger').style.display = 'none';
           }, 3000 );
         })
         .finally(() => {

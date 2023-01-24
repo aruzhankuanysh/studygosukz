@@ -1,19 +1,19 @@
 <template>
   <div class="container-fluid bg-dark bg-opacity-2 row justify-content-center text-white p-0">
     <section class="row justify-content-center position-relative p-0">
-      <div class="col-11 col-xl-9 row ">
+      <div class="col-11 col-xl-9 row align-items-center align-items-lg-start">
         <h1 class="fw-bold my-5">
           Ваше резюме после обучения
         </h1>
-        <div class="col-5 col-xl-4 pe-xl-5 pb-xl-4">
+        <div class="col-5 col-xxl-4 pe-lg-5 pb-lg-4">
           <img class="img-fluid" src="../assets/image11.png" alt="">
         </div>
-        <div class="col d-none d-xl-block"></div>
+        <div class="col d-none d-xxl-block"></div>
         <div class="col-7">
           <h3 class="fw-bold">Алексей Иванов</h3>
           <h4 class="border-bottom pb-3">1С-программист</h4>
-          <div class="d-none d-xl-block">
-            <h4 class="fw-bold mb-5">Я умею:</h4>
+          <div class="d-none d-lg-block">
+            <h4 class="fw-bold mb-5 mb-lg-4 mt-lg-4">Я умею:</h4>
             <h5>
               <ul>
                 <li>Устанавливать и администрировать платформу «1С:Предприятие»</li>
@@ -24,7 +24,7 @@
             </h5>
           </div>
         </div>
-        <div class="d-xl-none d-block">
+        <div class="d-lg-none d-block">
             <h4 class="fw-bold my-5">Я умею:</h4>
             <h5>
               <ul>
@@ -36,7 +36,7 @@
             </h5>
           </div>
         <h5>
-          <ul>
+          <ul class="mb-5">
             <li>Настраивать интерфейсы и права пользователей под требования заказчика</li>
             <li>Писать код на языке программирования 1С и языке запросов</li>
             <li>Работать с отчетами и печатными формами: создавать новые и дорабатывать существующие</li>

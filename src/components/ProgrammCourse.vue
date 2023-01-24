@@ -1,11 +1,11 @@
 <template>
   <div class="col-11 col-xl-10 row">
-    <div class="col-xl-6">
+    <div class="col-lg-6">
       <h1 class="fw-bold">
         Программа курса
       </h1>
     </div>
-    <div class="col-xl-6 text-xl-end pe-0">
+    <div class="col-lg-6 text-lg-end pe-lg-2 pe-0">
       <h4 class="mt-2">
         Длительность обучения: 2 месяца
       </h4>

@@ -5,7 +5,7 @@
         <div class="container-fluid p-0">
           <a class="navbar-brand col-1" href="/">
             <img 
-              class="img-fluid col-lg-4" 
+              class="img-fluid col-sm-9 col-md-6 col-lg-4" 
               src="../assets/logoOrigBPC.png" 
               alt=""
             >
@@ -33,41 +33,41 @@
                 >
                 <h4 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">Компания</h4>
               </div>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <button id="closemodal" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav me-auto my-2 my-lg-0">
                 <li class="nav-item">
                   <h5>
-                    <a class="nav-link active undrln" href="#about">
+                    <a class="nav-link active undrln ttt" href="/#about">
                       О курсе
                     </a>
                   </h5>
                 </li>
                 <li class="nav-item">
                   <h5>
-                    <a class="nav-link undrln" href="#programm">
+                    <a class="nav-link undrln ttt" href="/#programm">
                       Программа курса
                     </a>
                   </h5>
                 </li>
                 <li class="nav-item">
                   <h5>
-                    <a class="nav-link undrln" href="#price">
+                    <a class="nav-link undrln ttt" href="/#price">
                       Цена
                     </a>
                   </h5>
                 </li>
                 <li class="nav-item">
                   <h5>
-                    <a class="nav-link undrln" href="#reviews">
+                    <a class="nav-link undrln ttt" href="#reviews">
                       Отзывы
                     </a>
                     </h5>
                 </li>
                 <li class="nav-item">
                   <h5>
-                    <a class="nav-link undrln" href="#more">
+                    <a class="nav-link undrln ttt" href="#more">
                       Получить консультацию
                     </a>
                   </h5>

@@ -1,46 +1,50 @@
 <template>
   <section class="row justify-content-center position-relative">
     <div class="col-11 col-xl-10 row align-items-center">
-      <div class="col-xl-6">
-        <h1 class="fw-bold">
+      <div class="col-lg-6">
+        <h1 class="fw-bold mb-4">
           Успейте занять место на&nbsp;курсе со&nbsp;скидкой
         </h1>
       </div>
-      <div class="col-xl-6">
-        <div class="timer bg-primary rounded-4 p-2 row">
-          <div class="timer__items d-flex bg-white rounded-4 col-9 p-0">
-            <div class="timer__item position-relative text-center h1 mx-3 timer__days">00</div>
-            <div class="timer__item position-relative text-center h1 mx-3 timer__hours">00</div>
-            <div class="timer__item position-relative text-center h1 mx-3 timer__minutes">00</div>
-            <div class="timer__item position-relative text-center h1 mx-3 timer__seconds">00</div>
-          </div>
-          <div class="col-3 text-center text-light">
-            <h1 class="fw-bold m-0">50%</h1>
-            <h5 class="fw-bold">скидка</h5>
+      <div class="col-lg-6">
+        <div class="row justify-content-center px-2">
+          <div class="timer bg-primary rounded-4 p-2 row justify-content-center col-md-9 col-lg-12">
+            <div class="timer__items d-flex justify-content-center bg-white rounded-4 col-sm-9 p-0">
+              <div class="timer__item position-relative text-center h1 mx-3 timer__days">00</div>
+              <div class="timer__item position-relative text-center h1 mx-3 timer__hours">00</div>
+              <div class="timer__item position-relative text-center h1 mx-3 timer__minutes">00</div>
+              <div class="timer__item position-relative text-center h1 mx-3 timer__seconds">00</div>
+            </div>
+            <div class="col-sm-3 text-center text-light mt-2">
+              <h1 class="fw-bold m-0">50%</h1>
+              <h5 class="fw-bold">скидка</h5>
+            </div>
           </div>
         </div>
       </div>
-      <h4 class="my-5">Выберите подходящий вариант обучения и забронируйте место на курсе со скидкой</h4>
-      <div class="col-xl-6 d-none d-xl-block">
-        <div class="card me-xl-4">
+      <h4 class="my-5 col-lg-8">Выберите подходящий вариант обучения и забронируйте место на курсе со скидкой</h4>
+      <div class="col-6 d-none d-lg-block">
+        <div class="card me-4">
           <div class="card-header pt-4 px-4">
             <h4 class="fw-bold">за 1 месяц</h4>
           </div>
           <div class="card-body px-0 mt-5">
-            <div class="price col-9 py-4">
-              <h2 class="text-center text-light fw-bold my-3">100 000 ₸</h2>
+            <div class="price col-11 py-4">
+              <h2 class="text-center text-light fw-bold my-3 ps-4">100 000 ₸</h2>
             </div>
-            <button class="btn btn-primary rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-              <h5 class="m-0 fw-bold">
-                Записаться на курс
-              </h5>
-            </button>
+            <div class="text-center">
+              <button class="btn btn-primary rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <h5 class="m-0 fw-bold">
+                  Записаться на курс
+                </h5>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-6 d-none d-xl-block">
+      <div class="col-6 d-none d-lg-block">
         <div class="card bg-primary ms-4 position-relative" style="overflow: hidden;">
-          <div class="position-absolute bg-white px-5 top-0 end-0" style="transform: rotate(41.45deg);top: 50px !important;; right:-55px!important;">
+          <div class="position-absolute bg-white px-5 top-0 end-0" id="sale">
             <h4 class="text-center mx-5">
               скидка
             </h4>
@@ -49,21 +53,23 @@
             <h4 class="fw-bold text-light">при покупке 2 месяца </h4>
           </div>
           <div class="card-body px-0 mt-2 pt-3">
-            <h4 class="text-decoration-line-through col-7 text-end mt-1">200 000 ₸</h4>
-            <div class="price2 col-9 py-4">
-              <h2 class="text-center fw-bold my-3">150 000 ₸</h2>
+            <h4 class="text-decoration-line-through col-9 text-end mt-1">200 000 ₸</h4>
+            <div class="price2 col-11 py-4">
+              <h2 class="text-center fw-bold my-3 ps-4">150 000 ₸</h2>
             </div>
-            <button class="btn btn-light rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-              <h5 class="m-0 fw-bold">
-                Записаться на курс
-              </h5>
-            </button>
+            <div class="text-center">
+              <button class="btn btn-light rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <h5 class="m-0 fw-bold">
+                  Записаться на курс
+                </h5>
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="d-xl-none">
-        <div class="card bg-primary position-relative" style="overflow: hidden;">
+      <div class="d-lg-none row justify-content-center px-4">
+        <div class="card bg-primary position-relative col-sm-10 col-md-8 p-0" style="overflow: hidden;">
           <div class="card-header pt-4 px-0">
             <ul class="nav nav-tabs px-4" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
@@ -87,25 +93,29 @@
                 <div class="card-body px-0 mt-2 pt-3">
                   <h4 class="text-decoration-line-through col-9 text-end text-light mt-1">200 000 ₸</h4>
                   <div class="price2 py-4">
-                    <h2 class="text-center fw-bold my-3 ps-4">150 000 ₸</h2>
+                    <h1 class="text-center fw-bold my-sm-3 ps-4">150 000 ₸</h1>
                   </div>
-                  <button class="btn btn-light rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                    <h5 class="m-0 fw-bold">
-                      Записаться на курс
-                    </h5>
-                  </button>
+                  <div class="text-center">
+                    <button class="btn btn-light rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      <h5 class="m-0 fw-bold">
+                        Записаться на курс
+                      </h5>
+                    </button>
+                  </div>
                 </div>
               </div>
               <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                 <div class="card-body px-0 mt-5 pt-3">
                   <div class="price2 py-4">
-                    <h2 class="text-center fw-bold my-3 ps-4">100 000 ₸</h2>
+                    <h1 class="text-center fw-bold my-sm-3 ps-4">100 000 ₸</h1>
                   </div>
-                  <button class="btn btn-light rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                    <h5 class="m-0 fw-bold">
-                      Записаться на курс
-                    </h5>
-                  </button>
+                  <div class="text-center">
+                    <button class="btn btn-light rounded-3 m-4 mt-5 px-5 py-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      <h5 class="m-0 fw-bold">
+                        Записаться на курс
+                      </h5>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -191,7 +201,7 @@ export default {
       Autoplay,
       Navigation,
       swipbreakp:{
-        500:{
+        992:{
           slidesPerView: 2
         }
       }
@@ -244,11 +254,13 @@ export default {
   background-image: url(../assets/elemPricePrimary.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: center;
 }
 .price2{
   background-image: url(../assets/elemPriceWhite.png);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: center;
 }
 .timer__item {
   padding-bottom: 15px;
@@ -266,5 +278,10 @@ export default {
   content: ':';
   position: absolute;
   right: -15px;
+}
+#sale{
+  transform: rotate(41.45deg);
+  top: 35px !important;
+  right:-70px!important;
 }
 </style>

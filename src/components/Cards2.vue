@@ -3,10 +3,10 @@
     <section class="row justify-content-center position-relative p-0 pt-5">
       <img class="img-fluid col-5 position-absolute start-0 mt-5 pt-5 d-none d-lg-block" src="../assets/image2.png" alt="">
 
-        <h1 class="fw-bold display-6 text-center mb-xl-5">5 причин стать программистом на 1С</h1>
-        <div class="col-xl-5">
+        <h1 class="fw-bold display-6 text-center mb-xl-5">5 причин стать программистом&nbsp;на&nbsp;1С</h1>
+        <div class="col-lg-5">
         </div>
-        <div class="col-xl-7 my-5 p-0">
+        <div class="col-lg-7 my-5 p-0">
           <div class="my-xl-5"></div>
           <div>
             <swiper
@@ -115,10 +115,22 @@ export default {
       Autoplay,
       Navigation,
       swipbreakpoints:{
-        500:{
-          slidesPerView: 2,
+        576:{
+          slidesPerView: 1.5,
           centeredSlides: false
-        }
+        },
+        768:{
+          slidesPerView: 1.8,
+          centeredSlides: false
+        },
+        992:{
+          slidesPerView: 1.4,
+          centeredSlides: false
+        },
+        1200:{
+          slidesPerView: 1.6,
+          centeredSlides: false
+        },
       }
     };
   },
@@ -126,6 +138,21 @@ export default {
 </script>
 <style>
 .card2{
-  height: 379px;
+  height: 380px;
+}
+@media (max-width: 375px) {
+  .card2{
+    height: 510px;
+  }
+}
+@media (min-width:375px) and (max-width: 410px) {
+  .card2{
+    height: 450px;
+  }
+}
+@media (min-width:410px) and (max-width: 576px) {
+  .card2{
+    height: 390px;
+  }
 }
 </style>
