@@ -15,7 +15,7 @@
             </h4>
             <i class="bi bi-circle-fill col-1 h4 text-primary"></i>
             <h4 class="col-11 mb-4">
-              Обучение на <p class="d-inline-block fw-bold m-0">реальных задачах </p> из&nbsp;жизни.
+              Обучение на <p class="d-inline-block fw-bold m-0">реальных задачах бизнеса.</p>
             </h4>
             <i class="bi bi-circle-fill col-1 h4 text-primary"></i>
             <h4 class="col-11 mb-4">

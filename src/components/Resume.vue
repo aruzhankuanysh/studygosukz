@@ -6,11 +6,13 @@
           Ваше резюме после обучения
         </h1>
         <div class="col-5 col-xxl-4 pe-lg-5 pb-lg-4">
-          <img class="img-fluid" src="../assets/image11.png" alt="">
+          <div class="card bg-light bg-opacity-25 rounded-4 ">
+            <img class="img-fluid" src="../assets/image12.png" alt="">
+          </div>
         </div>
         <div class="col d-none d-xxl-block"></div>
         <div class="col-7">
-          <h3 class="fw-bold">Алексей Иванов</h3>
+          <h3 class="fw-bold">Юрий Тян</h3>
           <h4 class="border-bottom pb-3">1С-программист</h4>
           <div class="d-none d-lg-block">
             <h4 class="fw-bold mb-5 mb-lg-4 mt-lg-4">Я умею:</h4>

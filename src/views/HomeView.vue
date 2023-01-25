@@ -14,7 +14,7 @@
             <p class="d-inline text-primary fw-bold">1С&nbsp;-&nbsp;программиста</p> с&nbsp;нуля 
             всего за&nbsp;2&nbsp;месяца 
           </h1>
-          <h3 class="mt-5 my-xl-5">Выйди на доход от&nbsp;250&nbsp;000&nbsp;тг&frasl;мес.</h3>
+          <h3 class="mt-5 my-xl-5">Освой самую востребованную профессию IT Казахстана</h3>
           <button class="btn btn-primary rounded-4 px-5 py-3 d-none d-lg-block mb-lg-5 mt-lg-5" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
             <h4 class="m-0 mx-5">
               Записаться
@@ -158,7 +158,7 @@
               Освойте профессию 1С&nbsp;&#8209;&nbsp;программиста с&nbsp;нуля
             </h1>
             <h4 class="text-primary fw-bold my-4 my-lg-5">
-              И начните поиск работы уже через 7&nbsp;месяцев 
+              И начните поиск работы уже через 2&nbsp;месяца
             </h4>
             <div class="d-md-none">
               <img class="img-fluid" src="../assets/image7.png" alt="">

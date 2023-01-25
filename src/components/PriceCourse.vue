@@ -133,41 +133,33 @@
           :slides-per-view="1"
           :space-between="60"
           loop
-          :modules="[ Autoplay]"
+          :modules="[Autoplay]"
           :autoplay="{
               delay: 3000,
               disableOnInteraction: false
             }"
+          :centeredSlides="true"
           :speed="1000"
           :effect="slide"
           :breakpoints="swipbreakp"
         >
           <swiper-slide>
-            <div class="card bg-secondary bg-opacity-25">
-              <div class="my-5"></div>
-              <div class="my-5"></div>
-              <div class="my-5"></div>
-              <div class="my-5"></div>
+            <div class="card rounded-4" style="width: 100%; display: flex; align-items: center;" >
+              <iframe width="347" height="618" src="https://www.youtube.com/embed/6H6QTPHnYQk" title="Отзыв о курсе Gosu Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <h2 class="text-center mt-4">ФИО</h2>
+            <h2 class="text-center mt-4">Нур Арманулы</h2>
           </swiper-slide>
           <swiper-slide>
-            <div class="card bg-secondary bg-opacity-25">
-              <div class="my-5"></div>
-              <div class="my-5"></div>
-              <div class="my-5"></div>
-              <div class="my-5"></div>
+            <div class="card rounded-4" style="width: 100%; display: flex; align-items: center;">
+              <iframe width="347" height="618" src="https://www.youtube.com/embed/JHbEgoZRmbg" title="Отзыв о курсе по 1с Gosu Study" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <h2 class="text-center mt-4">ФИО</h2>
+            <h2 class="text-center mt-4">Кирилл Мухачев</h2>
           </swiper-slide>
           <swiper-slide>
-            <div class="card bg-secondary bg-opacity-25">
-              <div class="my-5"></div>
-              <div class="my-5"></div>
-              <div class="my-5"></div>
-              <div class="my-5"></div>
+            <div class="card rounded-4" style="width: 100%; display: flex; align-items: center;">
+              <iframe class="rounded-4" width="347" height="618" src="https://www.youtube.com/embed/SPZ44Zen17Y" title="Отзыв о курсе Gosu Study 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <h2 class="text-center mt-4">ФИО</h2>
+            <h2 class="text-center mt-4">Владислав Столяров</h2>
           </swiper-slide>
         </swiper>
       </div>
@@ -201,9 +193,21 @@ export default {
       Autoplay,
       Navigation,
       swipbreakp:{
+        576:{
+          slidesPerView: 1.4,
+          centeredSlides:true
+        },
+        768:{
+          slidesPerView: 1.8,
+          centeredSlides:false
+        },
         992:{
-          slidesPerView: 2
-        }
+          slidesPerView: 2.3
+        },
+        1200:{
+          slidesPerView: 3,
+          autoplay: false
+        },
       }
     };
   },

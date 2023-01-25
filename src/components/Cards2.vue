@@ -58,8 +58,13 @@
                   </div>
                   <h4 class="fw-bold my-4">Высокий доход</h4>
                   <h6 class="mb-0">
-                    Средняя зарплата 1с-программиста в Казахстане - 200 000 тг
+                    Средняя зарплата 1с-программиста в Казахстане - 500&nbsp;000&nbsp;тг
                   </h6>
+                  <a target="blank_" href="https://almaty.hh.kz/search/vacancy?area=160&search_field=name&search_field=company_name&search_field=description&salary=403200&only_with_salary=true&text=1%D1%81+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82&from=suggest_post&ored_clusters=true&enable_snippets=true">
+                    <button class="btn btn-outline-light px-4 py-2 mt-5">
+                      Посмотреть актульные вакансии
+                    </button> 
+                  </a>
                 </div>
               </div>
             </swiper-slide>
