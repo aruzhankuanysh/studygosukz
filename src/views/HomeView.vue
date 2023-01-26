@@ -85,6 +85,33 @@
               </div>
             </div>
           </div>
+          <button class="btn d-none" id="submitlgrm" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <h6 class="fw-bold m-0 mx-lg-3">
+              вступить в группу 
+            </h6>
+          </button>
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-4">
+                <div class="modal-header pt-lg-3 pe-lg-4">
+                  <h4 class="pe-lg-3 text-primary fw-bold">
+                    <i class="bi bi-telegram h4"></i> Gosu Study Group 
+                  </h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="closeModalFormtg"></button>
+                </div>
+                <div class="modal-body mt-4 зе-2">
+                  <h5 class="text-center">Для получения дополнительной информации и ответов на все ваши вопросы, можете вступить в группу Telegram</h5>
+                  <a href="https://t.me/+G5BoZXdb0j9iNDZi" target="blank_">
+                    <button class="btn btn-outline-primary text-uppercase py-3 rounded-pill mb-3 mt-4 col-12">
+                      <h6 class="fw-bold m-0 mx-lg-3">
+                        вступить в группу 
+                      </h6>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 p-0 d-flex align-items-end"><img class="img-fluid p-0 mt-lg-5 mt-xl-0" src="../assets/image1.png" alt=""></div>
         <div class="text-center d-lg-none">
@@ -283,12 +310,13 @@ export default {
       const success = document.getElementById('success');
       const danger = document.getElementById('danger');
 
-
       document.getElementById('tlgrm').addEventListener('submit', function(e) {
         e.preventDefault();
+        let nomer = this.number.value;
+        let nnn = parseInt(nomer.replace(/[^\d]/g, ''))
         let message = ` Заявка обучение 1C \n`;
         message+= `<b>Отправитель: </b> ${this.name.value}\n`;
-        message+= `<b>Номер: </b> ${this.number.value}\n`;
+        message+= `<b>Номер: </b> +${nnn}\n`;
         message+= `<b>Почта: </b> ${this.email.value}\n`;
         console.log(message)
 
@@ -307,6 +335,10 @@ export default {
             document.getElementById('success').style.display = 'none';
           }, 3000 );
           document.getElementById('closeModalForm').click();
+          setTimeout(function(){
+            document.getElementById('submitlgrm').click();
+          }, 1000 );
+          
         })
         .catch((err) =>{
           console.warn(err)
@@ -331,9 +363,11 @@ export default {
 
       document.getElementById('tg').addEventListener('submit', function(e) {
         e.preventDefault();
+        let nomer = this.number.value;
+        let nnn = parseInt(nomer.replace(/[^\d]/g, ''))
         let message = ` Узнать подробнее обучение 1C \n`;
         message+= `<b>Отправитель: </b> ${this.name.value}\n`;
-        message+= `<b>Номер: </b> ${this.number.value}\n`;
+        message+= `<b>Номер: </b> +${nnn}\n`;
         message+= `<b>Почта: </b> ${this.email.value}\n`;
         console.log(message)
 
@@ -351,7 +385,9 @@ export default {
           setTimeout(function(){
             document.getElementById('success').style.display = 'none';
           }, 3000 );
-          document.getElementById('closeModalForm').click();
+          setTimeout(function(){
+            document.getElementById('submitlgrm').click();
+          }, 1000 );
         })
         .catch((err) =>{
           console.warn(err)
