@@ -16,7 +16,7 @@
               <div class="timer__item position-relative text-center h1 mx-3 timer__seconds">00</div>
             </div>
             <div class="col-sm-3 text-center text-light mt-2">
-              <h1 class="fw-bold m-0">50%</h1>
+              <h1 class="fw-bold m-0">25%</h1>
               <h5 class="fw-bold">скидка</h5>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default {
   mounted(){
     document.addEventListener('DOMContentLoaded', function() {
       // конечная дата, например 1 июля 2021
-      const deadline = new Date(2023, 1, 1);
+      const deadline = new Date(2023, 1, 20, 9);
       // id таймера
       let timerId = null;
       // склонение числительных
